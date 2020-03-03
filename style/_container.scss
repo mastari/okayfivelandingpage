@@ -5,16 +5,15 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  width: 100vw;
   height: 100vh;
   font-family: proxima-nova, sans-serif;
+  
 }
 
 .pagecontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
 }
 
 .content_container {
@@ -39,7 +38,5 @@ body {
 
   @media screen and (min-width : 1250px) {
     width: 1200px;
-    margin-left: 50px;
-    margin-right: 50px;
   }
 }

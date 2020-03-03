@@ -4,7 +4,6 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  width: 100vw;
   height: 100vh;
   font-family: proxima-nova, sans-serif;
 }
@@ -20,7 +19,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100vw;
 }
 
 .content_container {
@@ -56,8 +54,6 @@ body {
 @media screen and (min-width: 1250px) {
   .content_container {
     width: 1200px;
-    margin-left: 50px;
-    margin-right: 50px;
   }
 }
 
@@ -75,7 +71,7 @@ body {
           justify-content: center;
   height: 85px;
   width: 100vw;
-  background-color: rgba(247, 247, 247, 0.856);
+  background-color: rgba(249, 249, 249, 0.959);
   border-bottom: 0.5px solid #dbdbdb;
 }
 
